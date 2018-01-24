@@ -19,6 +19,7 @@ a:hover {
   color: #fed136 !important;
 }
 
+
 h1,
 h2,
 h3,
@@ -162,12 +163,17 @@ img::-moz-selection {
     font-size: 1.25em;
     padding: 12px 0;
   }
+  #page-top{
+position: relative;
+    float: left;
+    background-color: #ffffff;
+
+  }
 }
 
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../img/header-bg.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -175,6 +181,17 @@ header.masthead {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+.home-bg{
+  background-image: url("../img/header-bg.jpg");
+}
+
+header.masthead .live-bg{
+  background-image:url("../img/live-bg.jpg");
+}
+.epk-bg{
+  background-image: url("../img/epk-bg.jpg");
 }
 
 header.masthead .intro-text {
